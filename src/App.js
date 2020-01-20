@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Codepen from "./assets/img/num26.png";
+import Coupon from "./components/Coupon";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           </div>
           <div class="transactionDetails">Helped by: Garrett Whisten</div>
           <div class="centerItem bold">
-            <div class="item">ExtraCare Card #: *********1875</div>
+            <div class="item">ExtraBear Card #: *********1875</div>
           </div>
           <div class="transactionDetails">
             <div class="detail">1</div>
@@ -93,19 +94,19 @@ function App() {
           </div>
           <div id="coupons" class="coupons">
             <div class="couponContainer">
-              <h1 class="logo">CVS/pharmacy</h1>
+              <h1 class="logo">GW/resume</h1>
               <div class="discount">$2.00 off</div>
               <div class="discountDetails">
                 $2.00 off COLEGATE Toothbrush, Toothpaste, or Mouthwash
               </div>
               <div class="expiration">
-                <div class="item bold">Expires 12/12/2018</div>
+                <div class="item bold">Expires 12/12/2020</div>
                 <div class="item">Up to $2 Value</div>
               </div>
               <div class="barcode">HelloCVSMate1</div>
               <div class="barcodeID center">9007 9876 9087 7665 62</div>
               <div class="legal center">
-                ExtraCare card required. Excludes lottery, money orders, postage
+                ExtraBear card required. Excludes lottery, money orders, postage
                 stamps, milk, prescriptions, pre-paid cards, gift cards,
                 pseudoephedrine products, other fees, deposits, taxes, alcohol
                 and local exclusions. No cash back. Tax charged on pre-coupon
@@ -114,11 +115,12 @@ function App() {
                 centers within CVS.
               </div>
               <div class="couponBottom">
-                <p>ExtraCare Card #: *7140 00130030598777</p>
+                <p>ExtraBear Card #: *7140 00130030598777</p>
                 <p>CPN#: 85887</p>
               </div>
             </div>
           </div>
+          <Coupon />
         </div>
       </div>
       <div className="codpen">
@@ -127,7 +129,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={Codepen} alt="Number 26 Codepen" />
+          <img src={Codepen} loading="lazy" alt="Number 26 Codepen" />
         </a>
       </div>
     </div>
