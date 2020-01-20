@@ -144,7 +144,9 @@ html {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0;
+  overflow: hidden;
 }
+
 
 .couponContainer {
   border-top: 1px dashed #1f1f1f;
@@ -189,8 +191,8 @@ html {
 
 .layout {
   position: relative;
-  height: 100vh;
 }
+
 
 
 
