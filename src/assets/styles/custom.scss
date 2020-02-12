@@ -182,8 +182,8 @@ footer {
     top: 0;
     text-align: start;
     position: relative;
-    margin-bottom: 0;
-    padding: 3rem 0 1rem 1rem;
+    margin: 0;
+    padding: 0 0 1rem 1rem;
 
     >p {
       margin-bottom: 0;
@@ -195,5 +195,6 @@ footer {
     width: 100%;
     min-height: 100%;
     border-radius: 20px;
+    margin-bottom: 2rem;
   }
 }
