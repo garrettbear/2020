@@ -177,6 +177,10 @@ footer {
     padding: 20px;
   }
 
+  .project {
+    padding: .4rem;
+  }
+
   .stuck {
     width: 100%;
     top: 0;
@@ -196,5 +200,7 @@ footer {
     min-height: 100%;
     border-radius: 20px;
     margin-bottom: 2rem;
+    // background: pink;
+    padding: 0;
   }
 }
