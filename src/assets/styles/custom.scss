@@ -3,10 +3,48 @@
   min-height: 100vh;
 }
 
+header {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 section {
   display: block;
   min-height: 100vh;
   background: $color-blue;
+}
+
+.flex {
+  display: flex;
+}
+
+.item {
+  position: relative;
+  background: gold;
+}
+
+.stuck {
+  position: sticky;
+  position: -webkit-sticky;
+  height: 100%;
+  width: 30%;
+  top: 20vh;
+  background: pink;
+  padding: 2rem;
+}
+
+.long {
+  min-height: 100vh;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .container {
@@ -33,4 +71,14 @@ section {
     position: -webkit-sticky;
     top: 30vh;
   }
+}
+.align-right {
+  text-align: end;
+}
+
+.project-info {
+  display: block;
+  height: 80vh;
+  width: 100%;
+  background: red;
 }
