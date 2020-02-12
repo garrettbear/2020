@@ -27,18 +27,23 @@ h6 {
 h1 {
   font-size: 1.802rem;
 }
+
 h2 {
   font-size: 1.602rem;
 }
+
 h3 {
   font-size: 1.424rem;
 }
+
 h4 {
   font-size: 1.266rem;
 }
+
 h5 {
   font-size: 1.125rem;
 }
+
 h6 {
   font-size: 1rem;
 }
@@ -58,14 +63,16 @@ b {
   color: $color-black;
 }
 
-a {
+a,
+.link {
   color: $color-blue;
   border-bottom: none;
   text-decoration: none;
   transition: all 2s ease-in-out;
 }
 
-a:hover {
+a:hover,
+.link:hover {
   border-bottom: 1px solid $color-blue;
 }
 

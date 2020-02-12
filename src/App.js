@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="app">
       <header>
-        <div className="">
+        <div className="header-logo">
           <h1>GarrettBear</h1>
-          <h5>Product Design Engineer</h5>
+          <h6>Product Design Engineer</h6>
         </div>
       </header>
       <section className="flex">
@@ -184,9 +184,61 @@ function App() {
           </div>
         </div>
       </section>
-
+      <section className="resume">
+        <a
+          href="https://drive.google.com/file/d/1MMknSWLhKqeqPto2DrQlLV2fqxtc7pwL/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-link"
+        >
+          <i class="fas fa-file resume-icon"></i>Resume
+        </a>
+        <div className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/gwhisten/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-icon"
+          >
+            <div className="link-icon--wrapper">
+              <i class="fab fa-linkedin"></i>
+            </div>
+          </a>
+          <a
+            href="https://www.instagram.com/garrettbear/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-icon"
+          >
+            <div className="link-icon--wrapper">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </a>
+          <a
+            href="https://codepen.io/garrettbear"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-icon"
+          >
+            <div className="link-icon--wrapper">
+              <i class="fab fa-codepen"></i>
+            </div>
+          </a>
+          <a
+            href="https://dribbble.com/garrettbear"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-icon"
+          >
+            <div className="link-icon--wrapper">
+              <i class="fab fa-dribbble"></i>
+            </div>
+          </a>
+        </div>
+      </section>
       <footer>
-        <div className="copyright">© 2020 GarrettBear</div>
+        © 2020 GarrettBear{" "}
+        <a href="https://old.garrettbear.com/">Old Portfolio</a>
       </footer>
     </div>
   );
