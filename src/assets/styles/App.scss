@@ -1,0 +1,68 @@
+@import "./variables.scss";
+
+:root {
+  box-sizing: border-box;
+  font-family: $font-stack;
+  font-size: 14px;
+  background-color: $color-white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+  color: $color-black;
+}
+
+h1 {
+  font-size: 1.802rem;
+}
+h2 {
+  font-size: 1.602rem;
+}
+h3 {
+  font-size: 1.424rem;
+}
+h4 {
+  font-size: 1.266rem;
+}
+h5 {
+  font-size: 1.125rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+div,
+span,
+p,
+a {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+  color: $color-black;
+}
+
+b {
+  font-weight: 500;
+  color: $color-black;
+}
+
+a {
+  color: $color-blue;
+  border-bottom: none;
+  text-decoration: none;
+  transition: all 2s ease-in-out;
+}
+
+a:hover {
+  border-bottom: 1px solid $color-blue;
+}
