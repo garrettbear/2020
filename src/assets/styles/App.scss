@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   box-sizing: border-box;
   font-family: $font-stack;
