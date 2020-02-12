@@ -14,8 +14,8 @@ header {
 
 section {
   display: block;
-  min-height: 100vh;
-  background: $color-blue;
+  //   min-height: 100vh;
+  background: $color-white;
 }
 
 .flex {
@@ -23,8 +23,9 @@ section {
 }
 
 .item {
-  position: relative;
-  background: gold;
+  //   position: relative;
+  //   background: $color-grey-light;
+  width: 100%;
 }
 
 .long {
@@ -35,6 +36,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  background: $color-grey-light;
 }
 
 .stuck {
@@ -42,16 +44,16 @@ section {
   position: -webkit-sticky;
   height: 100%;
   width: 40%;
-  top: 20vh;
-  background: pink;
-  padding: 2rem;
+  top: 10vh;
+  padding: 3rem;
+  margin-bottom: 100px;
+  //   background: red;
 }
 
 .container {
   position: relative;
   display: block;
   margin: 0 auto;
-  background: purple;
   width: 80%;
   height: 80vh;
 }
@@ -64,7 +66,6 @@ section {
   height: 100%;
   //   background: rgba(0, 0, 0, 0.3);
   &--inner {
-    background: pink;
     text-align: center;
     padding: 40px;
     position: sticky;
@@ -78,10 +79,24 @@ section {
 
 .project {
   display: block;
-  height: 100%;
-  //   width: 100%;
   padding: 1.5rem;
-  background: red;
+  background: $color-grey-light;
   margin: 20px;
   border-radius: 10px;
+  &-info {
+    // background: green;
+  }
+  &-title {
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  &-title::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    left: 0;
+    bottom: 0;
+    border-bottom: 2px solid $color-black;
+  }
 }
