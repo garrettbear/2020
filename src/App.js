@@ -62,7 +62,16 @@ function App() {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Goodies.la
+                  Goodies
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://pasadenaleisureclub.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Pasadena Leisure Club
                 </a>
               </li>
               <li>
@@ -94,11 +103,29 @@ function App() {
               </li>
               <li>
                 <a
+                  href="https://www.yourladysfavoritebarber.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Your Lady's Favorite Barber
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://novaartla.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   Nova Art
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://201lab.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  201 Lab
                 </a>
               </li>
             </ul>
