@@ -213,7 +213,7 @@ function App() {
       </section>
       <section className="resume">
         <a
-          href="https://drive.google.com/file/d/1MMknSWLhKqeqPto2DrQlLV2fqxtc7pwL/view?usp=sharing"
+          href="https://drive.google.com/file/d/11_1VYxABfAGvCNzPHML7hpmHJ1SMW89O/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-link"
