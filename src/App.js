@@ -3,11 +3,6 @@ import React from "react";
 function App() {
   return (
     <div className="app">
-      <header className="blm">
-        <div className="header-logo">
-          <h1>#BlackLivesMatter</h1>
-        </div>
-      </header>
       <header>
         <div className="header-logo">
           <h1>GarrettBear</h1>
