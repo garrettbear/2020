@@ -5,13 +5,13 @@ function App() {
     <div className="app">
       <header>
         <div className="header-logo">
-          <h1>GarrettBear</h1>
+          <h1>Garrett "Bear" Whisten</h1>
           <h6>Product Design Engineer</h6>
         </div>
       </header>
       <section className="flex">
         <div className="item stuck align-right">
-          <h1>Design Engineer</h1>
+          <h2>Design Engineer</h2>
           <h3>GumGum</h3>
           <p>2018 - Current</p>
         </div>
@@ -42,8 +42,8 @@ function App() {
 
       <section className="flex">
         <div className="item stuck align-right">
-          <h1>Web Designer & Developer</h1>
-          <h3>Freelance</h3>
+          <h2>Web Designer & Developer</h2>
+          <h3>201 Lab(Freelance)</h3>
           <p>2017 - Current</p>
         </div>
         <div className="item long">
@@ -67,11 +67,29 @@ function App() {
               </li>
               <li>
                 <a
+                  href="https://www.hmdproduct.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  HMD Product
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://pasadenaleisureclub.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   Pasadena Leisure Club
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://stoneandmist.co/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Stone &amp; Mist
                 </a>
               </li>
               <li>
@@ -143,7 +161,7 @@ function App() {
 
       <section className="flex">
         <div className="item stuck align-right">
-          <h1>Web Designer & Developer</h1>
+          <h2>Web Designer & Developer</h2>
           <h3>Just For Fun</h3>
           <p>2017 - Current</p>
         </div>
@@ -264,7 +282,7 @@ function App() {
         </div>
       </section>
       <footer>
-        © 2020 GarrettBear{" "}
+        © {new Date().getFullYear()} GarrettBear{" "}
         <a href="https://old.garrettbear.com/">Old Portfolio</a>
       </footer>
     </div>
