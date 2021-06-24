@@ -1,9 +1,13 @@
+:root {
+  font-size: 16px;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +17,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+.page {
+  background: #f9f9f9;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+}
+
+.receipt {
+  background: white;
+  box-shadow: 0 0 5px 0 #CCC;
+  max-width: 400px;
+  margin: 0 auto;
+  min-height: 120vh;
 }
